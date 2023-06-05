@@ -1,7 +1,7 @@
 function 쫘회전 () {
     pins.analogWritePin(AnalogPin.P1, 800)
-    pins.digitalWritePin(DigitalPin.P12, 1)
-    pins.digitalWritePin(DigitalPin.P13, 0)
+    pins.digitalWritePin(DigitalPin.P12, 0)
+    pins.digitalWritePin(DigitalPin.P13, 1)
     pins.analogWritePin(AnalogPin.P2, 300)
     pins.digitalWritePin(DigitalPin.P15, 1)
     pins.digitalWritePin(DigitalPin.P16, 0)
@@ -96,8 +96,8 @@ function 웃회전 () {
     pins.digitalWritePin(DigitalPin.P12, 1)
     pins.digitalWritePin(DigitalPin.P13, 0)
     pins.analogWritePin(AnalogPin.P2, 800)
-    pins.digitalWritePin(DigitalPin.P15, 1)
-    pins.digitalWritePin(DigitalPin.P16, 0)
+    pins.digitalWritePin(DigitalPin.P15, 0)
+    pins.digitalWritePin(DigitalPin.P16, 1)
     control.waitMicros(500)
 }
 function 젅니 () {
