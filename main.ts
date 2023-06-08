@@ -9,11 +9,11 @@ function 쫘회전 () {
 }
 function 고속쫘회전2 () {
     pins.analogWritePin(AnalogPin.P1, 800)
-    pins.digitalWritePin(DigitalPin.P12, 1)
-    pins.digitalWritePin(DigitalPin.P13, 0)
+    pins.digitalWritePin(DigitalPin.P12, 0)
+    pins.digitalWritePin(DigitalPin.P13, 1)
     pins.analogWritePin(AnalogPin.P2, 800)
-    pins.digitalWritePin(DigitalPin.P15, 0)
-    pins.digitalWritePin(DigitalPin.P16, 1)
+    pins.digitalWritePin(DigitalPin.P15, 1)
+    pins.digitalWritePin(DigitalPin.P16, 0)
     control.waitMicros(500)
 }
 radio.onReceivedNumberDeprecated(function (receivedNumber) {
@@ -111,11 +111,11 @@ function 젅니 () {
 }
 function 고속웃회전 () {
     pins.analogWritePin(AnalogPin.P1, 800)
-    pins.digitalWritePin(DigitalPin.P12, 0)
-    pins.digitalWritePin(DigitalPin.P13, 1)
+    pins.digitalWritePin(DigitalPin.P12, 1)
+    pins.digitalWritePin(DigitalPin.P13, 0)
     pins.analogWritePin(AnalogPin.P2, 800)
-    pins.digitalWritePin(DigitalPin.P15, 1)
-    pins.digitalWritePin(DigitalPin.P16, 0)
+    pins.digitalWritePin(DigitalPin.P15, 0)
+    pins.digitalWritePin(DigitalPin.P16, 1)
     control.waitMicros(500)
 }
 function 젓지 () {
